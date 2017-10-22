@@ -32,29 +32,27 @@ Clone down the assignment repository
 # Assignment
 Answer the questions in `quiz.md`. Answer each question in a separate commit. Follow the steps below for each commit.
 
-* 
-<add an instruction thing for how to commit:
-Make changes to your files.
-Git status to see if the file shows as changed.
-Git diff to check the changes
-Git add <filename> to add the file’s changes to the index.
-Git status to make sure the changes are added.
-Git diff should no longer show the changes.
-Git diff --cached should show the changes you added.
-Git commit should prompt for a message with the editor
-Git status to see that things are clean
-Git log to see that your commit is added to the index.
->
+* Make changes to your files.
+* see if the file change is detected with `git status`.
+* see if the correct changes are detected with `git diff`.
+* stage the changes with `git add <filename>`.
+* check that the add did what you expected with `git status`.
+* check `git diff` again to make sure it no longer shows changes.
+* check `git diff --cached` to show the changes you've staged.
+* make the commit with `git commit`.
+    * Write a meaningful commit message (e.g. "Answers question 1").
+* check that your working directory is clean with `git status`.
+* check that your commit succeeded as expected with `git log` (you should see your latest commit message on top).
 
-Write your answer to the first question, then commit it up.
-Write your answer to the second question, then commit it up.
-Write your answer to the third question, then commit it up.
+# Push your code up to a github repository.
+Before you push up your code to your new repository, you will need to remove the reference to my repository with:
 
-<will we use github or gitlab?? I’m preferring github…>
-Now that you have your questions committed, create a github account (if you don’t have one already); create a repo, and follow the instructions to push up an existing project.
+    $ git remote rm origin
 
-Copy the url to your repository in the browser and send it to my email -> ryan+git2017@sharptop.io
+Confirm that `git remote -v` produces no output.
+
+In your github account, create a new repository. Follow the instructions on the empty repository for pushing up your code.
+
+Copy the url to your repository in the browser and send it to my email -> ryan+git2017@sharptop.io. Carbon Copy Dr Shaneck on the email too.
+
 This assignment is worth 10 points and is due by the start of class on Wednesday.
-
-
-
