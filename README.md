@@ -51,7 +51,7 @@ Before you push up your code to your new repository, you will need to remove the
 
 Confirm that `git remote -v` produces no output.
 
-In your github account, create a new repository. Follow the instructions on the empty repository for pushing up your code.
+In your github account, create a new repository. Follow the instructions to "push an existing repository from the command line".
 
 Copy the url to your repository in the browser and send it to my email -> ryan+git2017@sharptop.io. Carbon Copy Dr Shaneck on the email too.
 
