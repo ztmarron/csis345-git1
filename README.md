@@ -1,8 +1,4 @@
----
-layout: page
-title: Git Assignment 1
-permalink: git/assignment1
----
+# Git Assignment 1
 
 This assignment will review what we've learned on day 1 of git. To complete the assignment, you will need to get git set up, and perform some of the tasks that were taught in class. The actual assignment should be fairly simple. Getting git set up should be very simple for those of you on linux or a mac. If you're on Windows, it's not impossible, but it is a little more challenging.
 
